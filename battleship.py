@@ -19,7 +19,7 @@ def hitchecker(x, y, grid):
         print 'Already attacked here,try somewhere else.'
 
     else:
-
+        counter= 0
         if x >= 0 and y >= 0:
             print 'Player: ' + name, "               ", 'Score: ', points
             print ""
